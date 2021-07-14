@@ -157,6 +157,7 @@ header {
   margin-left: 20px;
 }
 
+/* MOBILE DIVICE */
 @media screen and (max-width: 688px) {
   header {
     height: 100%;
@@ -180,11 +181,20 @@ header {
     height: 270px;
     margin-top: 50px;
   }
+  .all-players {
+    margin-top: 50px;
+  }
   .players {
     grid-template-columns: repeat(1, 1fr);
+    place-self: center;
+  }
+  .player img {
+    width: 250px;
+    height: 200px;
   }
   .highlights {
     flex-direction: column;
+    padding: 60px 0px;
   }
   .highlights-left h2 {
     font-size: 30px;
@@ -200,7 +210,12 @@ header {
   }
   .highlights-right img {
     width: 277px;
-    height: 250px;
+    height: 260px;
     margin-top: 50px;
   }
+  .logo img {
+    width: 200px;
+    height: 90px;
+  }
 }
+/* MOBILE DIVICE */
