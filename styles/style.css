@@ -145,6 +145,10 @@ header {
 .spon-img img {
   width: 350px;
 }
+
+/* SPONSOR END */
+
+/* WATCH MATCH  START*/
 .watch-matches {
   padding: 30px 0px;
 }
@@ -153,6 +157,9 @@ header {
   line-height: 60px;
   color: #0a0826;
 }
+/* WATCH MATCH  END*/
+
+/* FOOTER START */
 .football-footer {
   display: grid;
   grid-template-rows: repeat(1, 1fr);
@@ -180,8 +187,9 @@ header {
   line-height: 24px;
   margin-left: 20px;
 }
+/* FOOTER END */
 
-/* MOBILE DIVICE */
+/* -------------------------------------  MOBILE DIVICE  --------------------------------- */
 @media screen and (max-width: 688px) {
   header {
     height: 100%;
@@ -257,6 +265,9 @@ header {
   .logo img {
     width: 200px;
     height: 90px;
+  }
+  .fab {
+    padding: 5px;
   }
 }
 /* MOBILE DIVICE */
